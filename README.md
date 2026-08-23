@@ -1,4 +1,4 @@
-# dataSyncer - Source → Target File Update Tool
+# dataSyncer
 
 A desktop application with graphical interface for updating target files
 with data from source files, supporting intelligent column matching and
