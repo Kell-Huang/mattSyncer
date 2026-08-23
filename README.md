@@ -6,8 +6,8 @@ A tool can read multi source files and update their values to the target files y
 ## How to use?
 
 1.running this code via main.py  
-2.select the source files  
-3.select the target files  
+2.select source files  
+3.select a target file  
 4.preview changes or execute updates  
 
 ## ⏰Note
