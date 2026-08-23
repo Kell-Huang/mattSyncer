@@ -1,0 +1,22 @@
+mattupdater/
+├── main.py
+├── core/
+│   ├── __init__.py
+│   ├── column_matcher.py
+│   ├── differ.py
+│   ├── sku_detector.py
+│   └── writer.py
+├── ui/
+│   ├── __init__.py
+│   ├── main_window.py
+│   └── widgets/
+│       ├── __init__.py
+│       ├── action_panel.py
+│       ├── formula_panel.py
+│       ├── info_panel.py
+│       ├── mapping_panel.py
+│       └── sku_panel.py
+└── utils/
+    ├── __init__.py
+    ├── encoding.py
+    └── report.py
