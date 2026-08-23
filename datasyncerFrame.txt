@@ -1,4 +1,4 @@
-mattupdater/
+mattsyncer/
 ├── main.py
 ├── core/
 │   ├── __init__.py
