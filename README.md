@@ -1,30 +1,24 @@
 # dataSyncer
 
-A desktop application with graphical interface for updating target files
-with data from source files, supporting intelligent column matching and
-new column addition.
+↘️
+## how to use?
 
-## Features
+A tool can read multi source files and update their values to the target files you select(.csv and xlsx supported)
+Specific use method:
+1.running this code via main.py
+2.select the source files
+3.select the target files
+4.preview changes or execute updates
 
-- **Intelligent Column Matching**: Automatically matches columns between
-  source and target files using prefix stripping and hybrid similarity scoring
-- **New Column Addition**: Add source columns that don't exist in the target
-  file as new columns with automatic prefix detection
-- **SKU-Based Alignment**: Updates data row by row based on SKU matching
-- **Formula Preservation**: Detects and preserves Excel formulas during update
-- **Robust File Reading**:
-  - Handles UTF-8 BOM and various CSV encodings via automatic detection and normalization
-  - Prevents type inference errors by treating mapped columns as strings
-  - Cleans column names to avoid hidden characters causing matching failures
-- **Duplicate Detection**:
-  - Detects and warns about duplicate SKUs in source and target files
-  - Source duplicates are deduplicated automatically (first occurrence kept)
-- **Compact UI Layout**:
-  - Top info bar for source/target summary and status
-  - Left configuration panel (file, SKU, formula) with compact vertical layout
-  - Mapping panel occupies the main workspace
-  - Action panel fixed at bottom with right-aligned controls
-- **Console Logging**: All log messages are printed to the console for easy monitoring      during execution
+⏰
+## Note
+
+The running time depends on the file type of export you selected, normally the .csv file will run fastly
+so I recommend you'd better select the .csv file as the export type unless you want to keep the formulas!
+
+🏄
+## bilibili cheers !
+
 
 ## Requirements
 
