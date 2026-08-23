@@ -1,14 +1,14 @@
 # dataSyncer
 
 ↘️
-## how to use?
-
 A tool can read multi source files and update their values to the target files you select(.csv and xlsx supported)
-Specific use method:
-## 1.running this code via main.py
-## 2.select the source files
-## 3.select the target files
-## 4.preview changes or execute updates
+
+## How to use?
+
+1.running this code via main.py  
+2.select the source files  
+3.select the target files  
+4.preview changes or execute updates  
 
 ⏰
 ## Note
@@ -18,6 +18,7 @@ so I recommend you'd better select the .csv file as the export type unless you w
 
 🏄
 ## bilibili cheers !
+Please feel free to reach out if you have any questions!
 
 
 ## Requirements
